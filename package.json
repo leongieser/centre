@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
+		"dev:trace": "NEXT_TURBOPACK_TRACING=1 next dev --turbo",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
@@ -14,8 +15,10 @@
 	},
 	"dependencies": {
 		"next": "14.2.5",
+		"next-intl": "^3.17.0",
 		"react": "^18",
-		"react-dom": "^18"
+		"react-dom": "^18",
+		"sharp": "^0.33.4"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
