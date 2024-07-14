@@ -1,0 +1,13 @@
+node_modules
+
+.next
+build
+
+coverage
+junit.xml
+
+storybook-static
+
+global.d.ts
+
+/src/stories

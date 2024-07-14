@@ -1,0 +1,18 @@
+# Commonly ignored Node.js files
+node_modules
+npm-debug.log
+.npm
+
+# Next.js Build Output
+.next
+build
+
+# Next.js Generated Files
+public/static/documents
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Storybook
+.storybook
+src/app/stories
